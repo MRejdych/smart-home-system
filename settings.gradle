@@ -1,2 +1,10 @@
 rootProject.name = 'home-system'
+include 'microservices:events',
+        'microservices:statistics',
+        'microservices:users',
+        'microservices:api',
+        'microservices:drivers',
+        'microservices:sensors',
+        'microservices:gpio',
+        'libraries:amqp'
 
